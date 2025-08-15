@@ -19,7 +19,7 @@ The goal is to classify each week as a **Buy**, **Sell**, or **Sideways** trend 
 
 ## Project Structure
 
-§§§text
+``` text
 market_trend_fill_model/
 ├── prepare_data.py       # Load and clean SGLN price data
 ├── features.py           # Generate EMAs and MACD histogram
@@ -31,15 +31,15 @@ market_trend_fill_model/
 │   ├── data/             # CSVs, classification reports
 │   └── figures/          # Saved visual plots
 └── README.md
-§§§
+``` 
 
 ---
 
 ## Installation
 
-§§§bash
+``` bash
 pip install -r requirements.txt
-§§§
+``` 
 
 ---
 
@@ -47,9 +47,9 @@ pip install -r requirements.txt
 
 To execute the full trend and fill modelling pipeline:
 
-§§§bash
+``` bash
 python run_project.py
-§§§
+``` 
 
 Outputs (data and figures) are saved automatically to the `outputs/` directory.
 
